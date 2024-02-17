@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B6543FAA2B80428A007E57C9 /* MedTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6543FA92B80428A007E57C9 /* MedTrackApp.swift */; };
-		B6543FAC2B80428A007E57C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6543FAB2B80428A007E57C9 /* ContentView.swift */; };
+		B6543FAC2B80428A007E57C9 /* LandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6543FAB2B80428A007E57C9 /* LandingScreen.swift */; };
 		B6543FAE2B80428C007E57C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6543FAD2B80428C007E57C9 /* Assets.xcassets */; };
 		B6543FB12B80428C007E57C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6543FB02B80428C007E57C9 /* Preview Assets.xcassets */; };
 		B6543FBB2B80428C007E57C9 /* MedTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6543FBA2B80428C007E57C9 /* MedTrackTests.swift */; };
 		B6543FC52B80428C007E57C9 /* MedTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6543FC42B80428C007E57C9 /* MedTrackUITests.swift */; };
 		B6543FC72B80428C007E57C9 /* MedTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6543FC62B80428C007E57C9 /* MedTrackUITestsLaunchTests.swift */; };
+		B6543FD42B814C8C007E57C9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6543FD32B814C8C007E57C9 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		B6543FA62B80428A007E57C9 /* MedTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6543FA92B80428A007E57C9 /* MedTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedTrackApp.swift; sourceTree = "<group>"; };
-		B6543FAB2B80428A007E57C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6543FAB2B80428A007E57C9 /* LandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen.swift; sourceTree = "<group>"; };
 		B6543FAD2B80428C007E57C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6543FB02B80428C007E57C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6543FB62B80428C007E57C9 /* MedTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		B6543FC02B80428C007E57C9 /* MedTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6543FC42B80428C007E57C9 /* MedTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedTrackUITests.swift; sourceTree = "<group>"; };
 		B6543FC62B80428C007E57C9 /* MedTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6543FD32B814C8C007E57C9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				B6543FA92B80428A007E57C9 /* MedTrackApp.swift */,
-				B6543FAB2B80428A007E57C9 /* ContentView.swift */,
+				B6543FAB2B80428A007E57C9 /* LandingScreen.swift */,
 				B6543FAD2B80428C007E57C9 /* Assets.xcassets */,
+				B6543FD32B814C8C007E57C9 /* Models.swift */,
 				B6543FAF2B80428C007E57C9 /* Preview Content */,
 			);
 			path = MedTrack;
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6543FAC2B80428A007E57C9 /* ContentView.swift in Sources */,
+				B6543FD42B814C8C007E57C9 /* Models.swift in Sources */,
+				B6543FAC2B80428A007E57C9 /* LandingScreen.swift in Sources */,
 				B6543FAA2B80428A007E57C9 /* MedTrackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
