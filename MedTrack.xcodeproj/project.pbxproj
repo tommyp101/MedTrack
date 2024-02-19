@@ -15,6 +15,7 @@
 		B6543FC52B80428C007E57C9 /* MedTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6543FC42B80428C007E57C9 /* MedTrackUITests.swift */; };
 		B6543FC72B80428C007E57C9 /* MedTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6543FC62B80428C007E57C9 /* MedTrackUITestsLaunchTests.swift */; };
 		B6543FD42B814C8C007E57C9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6543FD32B814C8C007E57C9 /* Models.swift */; };
+		B6543FD62B829B14007E57C9 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6543FD52B829B14007E57C9 /* OnboardingScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		B6543FC42B80428C007E57C9 /* MedTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedTrackUITests.swift; sourceTree = "<group>"; };
 		B6543FC62B80428C007E57C9 /* MedTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B6543FD32B814C8C007E57C9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B6543FD52B829B14007E57C9 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				B6543FA92B80428A007E57C9 /* MedTrackApp.swift */,
 				B6543FAB2B80428A007E57C9 /* LandingScreen.swift */,
+				B6543FD52B829B14007E57C9 /* OnboardingScreen.swift */,
 				B6543FAD2B80428C007E57C9 /* Assets.xcassets */,
 				B6543FD32B814C8C007E57C9 /* Models.swift */,
 				B6543FAF2B80428C007E57C9 /* Preview Content */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6543FD62B829B14007E57C9 /* OnboardingScreen.swift in Sources */,
 				B6543FD42B814C8C007E57C9 /* Models.swift in Sources */,
 				B6543FAC2B80428A007E57C9 /* LandingScreen.swift in Sources */,
 				B6543FAA2B80428A007E57C9 /* MedTrackApp.swift in Sources */,

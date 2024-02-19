@@ -9,21 +9,23 @@ import SwiftUI
 
 struct LandingScreen: View {
     var body: some View {
-        VStack {
-            Spacer()
-            Text("MedTrack")
-                .padding()
-            Spacer()
-            Button(action: {
-            }) {
-                Text("Next")
-                    .frame(minWidth: 0, maxWidth: .infinity)
+        NavigationView {
+            VStack {
+                Spacer()
+                Text("MedTrack")
                     .padding()
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(8)
+                Spacer()
+                Button(action: {
+                }) {
+                    Text("Next")
+                        .frame(minWidth: 0, maxWidth: .infinity)
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+                .padding(20)
             }
-            .padding(20)
         }
     }
 }
